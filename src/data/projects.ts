@@ -148,6 +148,116 @@ export const projectsData: ProjectData[] = [
     ],
   },
   {
+    id: "woodenstreet-emporium",
+    title: "Woodenstreet Emporium",
+    subtitle: "Modern Furniture E-commerce Storefront",
+    type: "UI/UX Design + Frontend Development",
+    duration: "3 Months",
+    role: "UI/UX Designer & Frontend Developer",
+    tech: [
+      "React",
+      "Vite",
+      "TypeScript",
+      "Tailwind CSS",
+      "Radix UI",
+      "React Query",
+      "Recharts",
+      "E-Commerce",
+      "Responsive Design",
+    ],
+    features: [
+      "Clean product catalog browsing",
+      "Detailed product experiences with recommendations",
+      "Shopping cart and checkout flow",
+      "Wishlist and search/filter functionality",
+      "Responsive, mobile-first layouts",
+      "Reusable UI component system",
+    ],
+    overview:
+      "Woodenstreet Emporium is a modern furniture e-commerce storefront built using React and Vite. The project focuses on creating a seamless shopping experience with strong visual hierarchy, intuitive navigation, responsive layouts, and reusable UI components.",
+    problemStatement:
+      "Furniture shopping websites often overwhelm users with cluttered layouts, inconsistent navigation, and poor product discovery experiences. Users need a clean, intuitive interface that helps them browse products, compare options, and complete purchases efficiently.",
+    targetUsers: [
+      "Online furniture shoppers",
+      "Design-conscious home decorators",
+      "Mobile-first customers looking for fast browsing",
+    ],
+    researchInsights: [
+      "Users expect clear product hierarchy and filtering",
+      "Mobile shoppers need fast checkout flows",
+      "Consistent UI patterns build trust across product pages",
+    ],
+    solution: [
+      "Designed a clean storefront with structured product discovery",
+      "Built reusable components for catalog, detail, and checkout flows",
+      "Focused on responsive, accessible interactions throughout the experience",
+    ],
+    designSystem: {
+      colors: [
+        {
+          name: "Warm Neutral",
+          hex: "#F3EFE6",
+          description: "Soft background for product surfaces",
+        },
+        {
+          name: "Deep Charcoal",
+          hex: "#1F2937",
+          description: "Text and emphasis for clean readability",
+        },
+        {
+          name: "Accent Teal",
+          hex: "#0F766E",
+          description: "Action and interactive highlights",
+        },
+      ],
+      typography: [
+        "Readable headings with strong visual hierarchy",
+        "Clear body text for product details and calls to action",
+      ],
+    },
+    screens: [
+      {
+        title: "Product Catalog",
+        description:
+          "Clean card-based product browsing with filters and search. TODO: replace with real project screenshot.",
+      },
+      {
+        title: "Product Detail",
+        description:
+          "Detailed product pages with visual hierarchy, pricing, and actions. TODO: replace with real project screenshot.",
+      },
+      {
+        title: "Checkout Experience",
+        description:
+          "Streamlined checkout and cart flow for fast conversions. TODO: replace with real project screenshot.",
+      },
+    ],
+    beforeVsAfter: [
+      {
+        before: "Cluttered furniture storefronts",
+        after: "Focused product discovery experience",
+      },
+      {
+        before: "Inconsistent UI and navigation",
+        after: "Unified reusable component system",
+      },
+      {
+        before: "Slow mobile browsing",
+        after: "Responsive, fast shopping flows",
+      },
+    ],
+    outcome: [
+      "A polished e-commerce storefront with strong visual polish",
+      "Improved product discovery and checkout clarity",
+      "A scalable component-driven frontend architecture",
+    ],
+    learnings: [
+      "Component-driven design systems speed frontend delivery",
+      "Mobile-first interactions are essential for modern e-commerce",
+      "Visual hierarchy reinforces trust and product focus",
+    ],
+  },
+  {
     id: "fraud-detection",
     title: "Credit Card Fraud Detection",
     subtitle: "ML-Based Fraud Classifier",
